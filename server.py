@@ -1,5 +1,6 @@
 # Versiones disponibles
-# forge, mohist, fabric, vanilla, paper
+# forge, mohist, fabric, vanilla, 3
+
 
 # Puedes instalar mohist después de instalar forge desde el menú de gestionar
 # Puedes instalar paper después de instalar vanilla desde el menú de gestionar
@@ -16,14 +17,6 @@
 # sa		      Sudamérica (São Paulo)
 # us		      Estados unidos (Ohio)
 # us-cal-1	      Estados unidos (California)
-
-
-
-
-
-
-
-
 
 
 
