@@ -201,3 +201,8 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [18:43:40] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Eisler_000 lost connection: Timed out
 [18:43:40] [Server thread/INFO] [voicechat]: [voicechat] Disconnecting client Eisler_000
 [18:43:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Eisler_000 left the game.
+[18:46:20] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Eisler_000 joined the game
+[18:46:20] [Server thread/INFO] [Jade]: Syncing config to Eisler_000 (35d4015f-82f4-332b-9a1e-10102dd6fbc2)
+[18:46:20] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: Eisler_000[/100.70.13.20:56267] logged in with entity id 1509 at ([world]13.028829473545251, 71.0, 26.024848907426655)
+[18:46:21] [Server thread/INFO] [voicechat]: [voicechat] Received secret request of Eisler_000 (18)
+[18:46:21] [Server thread/INFO] [voicechat]: [voicechat] Sent secret to Eisler_000
