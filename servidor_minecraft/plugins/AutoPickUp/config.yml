@@ -1,0 +1,18 @@
+######################
+#     AutoPickUp     #
+######################
+
+# Give monster's drops automatically
+auto-monster-drops: true
+
+# Give animals' drops automatically
+auto-animals-drops: true
+
+# Give players' drops automatically
+auto-players-drops: true
+
+# Drop glass and glass panes
+drop-glass: true
+
+# Give xp-bottles automatically
+auto-xp-bottle: true

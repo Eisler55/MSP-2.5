@@ -1,111 +1,203 @@
-[17Jul2024 16:56:01.134] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.5, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[17Jul2024 16:56:01.138] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.3 by Microsoft; OS Linux arch amd64 version 6.5.0-1022-azure
-[17Jul2024 16:56:01.662] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[17Jul2024 16:56:01.709] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/MSP-2.5/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[17Jul2024 16:56:02.049] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MSP-2.5/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.5/fmlcore-1.20.1-47.3.5.jar is missing mods.toml file
-[17Jul2024 16:56:02.050] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MSP-2.5/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.5/javafmllanguage-1.20.1-47.3.5.jar is missing mods.toml file
-[17Jul2024 16:56:02.052] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MSP-2.5/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.5/lowcodelanguage-1.20.1-47.3.5.jar is missing mods.toml file
-[17Jul2024 16:56:02.053] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MSP-2.5/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.5/mclanguage-1.20.1-47.3.5.jar is missing mods.toml file
-[17Jul2024 16:56:02.299] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 13 dependencies adding them to mods collection
-[17Jul2024 16:56:04.462] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[17Jul2024 16:56:04.741] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[17Jul2024 16:56:04.903] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 108 options available, 3 override(s) found
-[17Jul2024 16:56:05.044] [main/INFO] [Embeddium Extra/]: Loaded configuration file for Sodium Extra: 35 options available, 0 override(s) found
-[17Jul2024 16:56:07.720] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
-[17Jul2024 16:56:14.970] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.5, for MC 1.20.1 with MCP 20230612.114412
-[17Jul2024 16:56:14.970] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.5 Initialized
-[17Jul2024 16:56:15.006] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[17Jul2024 16:56:15.016] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
-[17Jul2024 16:56:15.018] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
-[17Jul2024 16:56:15.019] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
-[17Jul2024 16:56:15.020] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
-[17Jul2024 16:56:15.036] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
-[17Jul2024 16:56:15.037] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
-[17Jul2024 16:56:15.038] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
-[17Jul2024 16:56:15.251] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
-[17Jul2024 16:56:15.251] [modloading-worker-0/ERROR] [Embeddium/]: Failed to update fingerprint
-java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
-	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.20.1-47.3.5.jar%2369!/:1.0]
-	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
-	at me.jellysquid.mods.sodium.client.data.fingerprint.FingerprintMeasure.create(FingerprintMeasure.java:19) ~[embeddium-0.3.21+mc1.20.1%20(1).jar%23173!/:?]
-	at me.jellysquid.mods.sodium.client.SodiumClientMod.updateFingerprint(SodiumClientMod.java:102) ~[embeddium-0.3.21+mc1.20.1%20(1).jar%23173!/:?]
-	at me.jellysquid.mods.sodium.client.SodiumClientMod.<init>(SodiumClientMod.java:42) ~[embeddium-0.3.21+mc1.20.1%20(1).jar%23173!/:?]
+[18:36:11] [main/INFO] [cpw.mods.modlauncher.Launcher]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.5, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[18:36:11] [main/INFO] [cpw.mods.modlauncher.Launcher]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.3 by Microsoft; OS Linux arch amd64 version 6.5.0-1022-azure
+[18:36:13] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler]: ImmediateWindowProvider not loading because launch target is forgeserver
+[18:36:13] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/MSP-2.5/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%23113!/ Service=ModLauncher Env=SERVER
+[18:36:14] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator]: Found 12 dependencies adding them to mods collection
+[18:36:16] [main/INFO] [mixin]: Compatibility level set to JAVA_17
+[18:36:16] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler]: Launching target 'forgeserver' with arguments [nogui]
+[18:36:16] [main/INFO] [Embeddium]: Loaded configuration file for Embeddium: 108 options available, 0 override(s) found
+[18:36:16] [main/INFO] [Embeddium Extra]: Loaded configuration file for Sodium Extra: 35 options available, 0 override(s) found
+[18:36:19] [main/INFO] [MixinExtras|Service]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
+[18:36:22] [main/WARN] [mixin]: Injection warning: LVT in net/minecraft/world/item/BoatItem::m_7203_(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; has incompatible changes at opcode 143 in callback securitycraft.mixins.json:boat.BoatItemMixin->@Inject::securitycraft$maybeSetSecuritySeaBoatOwner(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/phys/HitResult;Lnet/minecraft/world/phys/Vec3;DLjava/util/List;Lnet/minecraft/world/entity/vehicle/Boat;)V.
+ Expected: [Lnet/minecraft/world/item/ItemStack;, Lnet/minecraft/world/phys/HitResult;, Lnet/minecraft/world/phys/Vec3;, D, Ljava/util/List;, Lnet/minecraft/world/entity/vehicle/Boat;]
+    Found: [Lnet/minecraft/world/item/ItemStack;, Lnet/minecraft/world/phys/BlockHitResult;, Lnet/minecraft/world/phys/Vec3;, D, Ljava/util/List;, Lorg/bukkit/event/player/PlayerInteractEvent;]
+Available: [Lnet/minecraft/world/item/ItemStack;, Lnet/minecraft/world/phys/BlockHitResult;, Lnet/minecraft/world/phys/Vec3;, D, Ljava/util/List;, Lorg/bukkit/event/player/PlayerInteractEvent;, Lnet/minecraft/world/entity/vehicle/Boat;, Lnet/minecraft/world/entity/Entity;, Lnet/minecraft/world/phys/AABB;]
+[18:36:26] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id architectury:sync_ids
+[18:36:26] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[18:36:26] [modloading-worker-0/INFO] [com.mohistmc.MohistMC]: Mohist mod loading.....
+[18:36:26] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[18:36:26] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[18:36:26] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[18:36:26] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[18:36:26] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[18:36:26] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[18:36:26] [modloading-worker-0/INFO] [com.mohistmc.MohistMC]: EventDispatcherRegistry initialized
+[18:36:26] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod]: Forge mod loading, version 47.3.5, for MC 1.20.1 with MCP 20230612.114412
+[18:36:26] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge]: MinecraftForge v47.3.5 Initialized
+[18:36:26] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge]: NeoForge v47.1.105 Initialized
+[18:36:26] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+[18:36:26] [modloading-worker-0/ERROR] [Embeddium]: Failed to update fingerprint
+java.lang.NoClassDefFoundError: net/minecraft/client/Minecraft
+	at me.jellysquid.mods.sodium.client.data.fingerprint.FingerprintMeasure.create(FingerprintMeasure.java:19) ~[embeddium-0.3.21+mc1.20.1%20(1).jar%23269!/:?]
+	at me.jellysquid.mods.sodium.client.SodiumClientMod.updateFingerprint(SodiumClientMod.java:102) ~[embeddium-0.3.21+mc1.20.1%20(1).jar%23269!/:?]
+	at me.jellysquid.mods.sodium.client.SodiumClientMod.<init>(SodiumClientMod.java:42) ~[embeddium-0.3.21+mc1.20.1%20(1).jar%23269!/:?]
 	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
 	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
-	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.20.1-47.3.5.jar%23213!/:?]
-	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.3.5.jar%23212!/:?]
-	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-[17Jul2024 16:56:16.337] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
-[17Jul2024 16:56:16.337] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: oculus, class net.irisshaders.iris.Iris
-java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
-	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.20.1-47.3.5.jar%2369!/:1.0]
-	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:76) ~[javafmllanguage-1.20.1-47.3.5.jar%23308!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$10(ModContainer.java:123) ~[fmlcore-1.20.1-47.3.5.jar%23307!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+Caused by: java.lang.ClassNotFoundException: net.minecraft.client.Minecraft
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:157) ~[securejarhandler-mohist-2.1.11.jar:?]
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
-	at java.lang.Class.getDeclaredConstructors0(Native Method) ~[?:?]
-	at java.lang.Class.privateGetDeclaredConstructors(Class.java:3549) ~[?:?]
-	at java.lang.Class.getConstructor0(Class.java:3754) ~[?:?]
-	at java.lang.Class.getDeclaredConstructor(Class.java:2930) ~[?:?]
-	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.20.1-47.3.5.jar%23213!/:?]
-	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.3.5.jar%23212!/:?]
-	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	... 15 more
+[18:36:27] [modloading-worker-0/INFO] [com.autovw.advancednetherite.AdvancedNetherite]: Initializing platform helper for Advanced Netherite!
+[18:36:27] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility]: ExpandAbility here, who dis?
+[18:36:30] [main/INFO] [Moonlight]: Initialized block sets in 17ms
+[18:36:31] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl]: Registry entry listened Registry Entry [minecraft:entity_type / bakery:wandering_baker] was not realized!
+[18:36:31] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl]: Registry entry listened Registry Entry [minecraft:entity_type / bakery:wandering_baker] was not realized!
+[18:36:31] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl]: Registry entry listened Registry Entry [minecraft:entity_type / bakery:wandering_baker] was not realized!
+[18:36:32] [modloading-worker-0/INFO] [voicechat]: [voicechat] Compatibility version 18
+[18:36:32] [modloading-worker-0/INFO] [terrablender]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[18:36:32] [modloading-worker-0/INFO] [terrablender]: Registered region minecraft:nether to index 0 for type NETHER
+[18:36:32] [modloading-worker-0/INFO] [terrablender]: Registered region regions_unexplored:primary to index 1 for type OVERWORLD
+[18:36:32] [modloading-worker-0/INFO] [terrablender]: Registered region regions_unexplored:secondary to index 2 for type OVERWORLD
+[18:36:32] [modloading-worker-0/INFO] [terrablender]: Registered region regions_unexplored:nether to index 1 for type NETHER
+[18:36:32] [modloading-worker-0/INFO] [voicechat]: [voicechat] Loading plugins
+[18:36:32] [modloading-worker-0/INFO] [voicechat]: [voicechat] Loaded 0 plugin(s)
+[18:36:32] [modloading-worker-0/INFO] [voicechat]: [voicechat] Initializing plugins
+[18:36:32] [modloading-worker-0/INFO] [voicechat]: [voicechat] Initialized 0 plugin(s)
+[18:36:32] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
+[18:36:32] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
+[18:36:32] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
+[18:36:32] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
+[18:36:32] [main/INFO] [Supplementaries]: Finished mod setup in: [0, 1, 0, 0, 0, 0, 7, 5, 1] ms
+[18:36:32] [main/INFO] [Moonlight]: Initialized color sets in 35ms
+[18:36:32] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[18:36:32] [main/INFO] [xaero.minimap.XaeroMinimap]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[18:36:32] [modloading-worker-0/INFO] [Jade]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
+[18:36:32] [modloading-worker-0/INFO] [Jade]: Start loading plugin at net.mehvahdjukaar.supplementaries.integration.JadeCompat
+[18:36:32] [modloading-worker-0/INFO] [Jade]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[18:36:32] [modloading-worker-0/INFO] [Jade]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[18:36:32] [modloading-worker-0/INFO] [Jade]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[18:36:32] [modloading-worker-0/INFO] [Jade]: Start loading plugin at net.geforcemods.securitycraft.compat.hudmods.JadeDataProvider
+[18:36:32] [modloading-worker-0/INFO] [Jade]: Start loading plugin at ovh.corail.tombstone.compatibility.IntegrationJade
+[18:36:35] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:36:37] [main/INFO] [Supplementaries]: Generated runtime SERVER_DATA for pack Supplementaries Generated Pack (supplementaries) in: 47 ms
+[18:36:38] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs]: Adding datapack listener capsid_recipes
+[18:36:39] [Worker-Main-3/WARN] [artifacts.Artifacts]: Tag entries for curios:tags/items/magic_book.json cleared by tombstone-1.20.1-8.6.6.jar
+[18:36:40] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Loaded 17 recipes
+[18:36:40] [main/ERROR] [net.minecraft.server.ServerFunctionLibrary]: Failed to load function enemyexpansion:silver_exes
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Incorrect argument for command at position 25: ...erfriends <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
 	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
 	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-[17Jul2024 16:56:16.356] [modloading-worker-0/INFO] [com.autovw.advancednetherite.AdvancedNetherite/]: Initializing platform helper for Advanced Netherite!
-[17Jul2024 16:56:16.984] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
-[17Jul2024 16:56:17.207] [main/FATAL] [net.minecraftforge.fml.ModLoader/LOADING]: Failed to complete lifecycle event CONSTRUCT, 1 errors found
-[17Jul2024 16:56:17.359] [main/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 8f0f4f39-194e-487a-87d8-4eeca8c9b924
-[17Jul2024 16:56:17.360] [main/FATAL] [net.minecraftforge.server.loading.ServerModLoader/]: Crash report saved to ./crash-reports/crash-2024-07-17_16.56.17-fml.txt
-[17Jul2024 16:56:17.374] [main/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID a326c28d-cd7a-4c02-8943-9585081ef363
-[17Jul2024 16:56:17.390] [main/ERROR] [net.minecraft.server.Main/FATAL]: Failed to start the minecraft server
-net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: [
-	Oculus (oculus) has failed to load correctly
-§7java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
-]
-	at net.minecraftforge.fml.ModLoader.waitForTransition(ModLoader.java:246) ~[fmlcore-1.20.1-47.3.5.jar%23212!/:?]
-	at net.minecraftforge.fml.ModLoader.lambda$dispatchAndHandleError$20(ModLoader.java:210) ~[fmlcore-1.20.1-47.3.5.jar%23212!/:?]
-	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
-	at net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:210) ~[fmlcore-1.20.1-47.3.5.jar%23212!/:?]
-	at net.minecraftforge.fml.ModLoader.lambda$gatherAndInitializeMods$13(ModLoader.java:183) ~[fmlcore-1.20.1-47.3.5.jar%23212!/:?]
-	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
-	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:183) ~[fmlcore-1.20.1-47.3.5.jar%23212!/:?]
-	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:30) ~[forge-1.20.1-47.3.5-universal.jar%23216!/:?]
-	at net.minecraft.server.Main.main(Main.java:125) ~[server-1.20.1-20230612.114412-srg.jar%23211!/:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.5.jar%2369!/:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.5.jar%2369!/:?]
-	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.5.jar%2369!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Incorrect argument for command at position 25: ...erfriends <--[HERE]
+	at net.minecraft.commands.CommandFunction.m_77984_(CommandFunction.java:63) ~[server-1.20.1-20230612.114412-srg.jar%23306!/:?]
+	at net.minecraft.server.ServerFunctionLibrary.m_214320_(ServerFunctionLibrary.java:83) ~[server-1.20.1-20230612.114412-srg.jar%23306!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[18:36:40] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 4342 advancements
+[18:36:40] [main/INFO] [Supplementaries]: Loaded 27 flute songs
+[18:36:40] [main/INFO] [top.theillusivec4.curios.Curios]: Loaded 13 curio slots
+[18:36:40] [main/INFO] [top.theillusivec4.curios.Curios]: Loaded 10 curio entities
+[18:36:40] [main/WARN] [net.minecraft.core.MappedRegistry]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: forge:is_flutterfly, minecraft:is_plains
+[18:36:42] [main/INFO] [Moonlight]: Applied 7 data villager trades
+[18:36:42] [main/INFO] [Supplementaries]: Finished additional setup in 12 ms
+[18:36:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.20.1
+[18:36:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[18:36:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[18:36:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Generating keypair
+[18:36:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[18:36:42] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener]: Using epoll channel type
+[18:36:42] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:36:42] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[18:36:42] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:36:42] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:36:42] [Server thread/INFO] [Minecraft]: This server is running Mohist version 1.20.1-792 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT, Forge version 47.3.5, NeoForge version 47.1.105)
+[18:36:43] [Server thread/INFO] [Minecraft]: Debug logging is enabled
+[18:36:43] [Server thread/INFO] []: Server Ping Player Sample Count: 20
+[18:36:43] [Server thread/INFO] [Minecraft]: Using 4 threads for Netty based IO
+[18:36:44] [Server thread/INFO] [me.minebuilders.clearlag.Clearlag]: [ClearLag] Loading ClearLag v3.2.2
+[18:36:44] [Server thread/INFO] [me.bradley.AutoBlockPickup.AutoBlockPickup]: [AutoBlockPickup] Loading AutoBlockPickup v1.0
+[18:36:44] [Server thread/INFO] [me._8byte.autopickup.AutoPickUp]: [AutoPickUp] Loading AutoPickUp v1.1
+[18:36:44] [Server thread/INFO] [ua.luckyzeero.pingfix.PingFix]: [PingFix] Loading PingFix v1.2.0
+[18:36:45] [Server thread/INFO] [Framework]: Loading server configs...
+[18:36:45] [Server thread/INFO] [terrablender]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[18:36:45] [Server thread/INFO] [terrablender]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[18:36:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[18:36:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:overworld
+[18:36:55] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[18:36:55] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[18:36:55] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[18:36:56] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[18:36:56] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[18:36:56] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[18:36:57] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[18:36:57] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[18:36:58] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[18:36:58] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 14%
+[18:36:58] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 4991 ms
+[18:36:59] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:the_end
+[18:36:59] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[18:36:59] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[18:37:00] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[18:37:00] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 4%
+[18:37:01] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 8%
+[18:37:01] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 2489 ms
+[18:37:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:the_nether
+[18:37:02] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[18:37:02] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[18:37:02] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[18:37:03] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[18:37:03] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 2%
+[18:37:04] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 2449 ms
+[18:37:04] [Server thread/INFO] [me.minebuilders.clearlag.Clearlag]: [ClearLag] Enabling ClearLag v3.2.2
+[18:37:04] [Server thread/INFO] [Minecraft]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[18:37:04] [Server thread/INFO] [Minecraft]: [ClearLag] Loading modules...
+[18:37:04] [Server thread/WARN] [Minecraft]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_20_R1.MinecraftServer)
+[18:37:04] [Server thread/INFO] [Minecraft]: [ClearLag] Modules enabed, loading config values
+[18:37:04] [Server thread/INFO] [Minecraft]: [ClearLag] Modules have been loaded!
+[18:37:04] [Server thread/INFO] [Minecraft]: [ClearLag] Clearlag is now enabled!
+[18:37:04] [Server thread/INFO] [me.bradley.AutoBlockPickup.AutoBlockPickup]: [AutoBlockPickup] Enabling AutoBlockPickup v1.0
+[18:37:04] [Thread-14/INFO] [Minecraft]: [ClearLag] Checking for updates compatible with your bukkit version [1.20]...
+[18:37:04] [Server thread/INFO] [me._8byte.autopickup.AutoPickUp]: [AutoPickUp] Enabling AutoPickUp v1.1
+[18:37:04] [Server thread/INFO] [ua.luckyzeero.pingfix.PingFix]: [PingFix] Enabling PingFix v1.2.0
+[18:37:04] [Server thread/INFO] [com.mohistmc.plugins.Main]: [Mohist] Enabling Mohist v1.20.1
+[18:37:04] [Server thread/INFO] [Minecraft]: Server permissions file permissions.yml is empty, ignoring it
+[18:37:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (19.542s)! For help, type "help"
+[18:37:04] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI]: Successfully initialized permission handler forge:default_handler
+[18:37:04] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI]: Forwarding forge permission[forge:default_handler] to bukkit[mohist:permission]
+[18:37:04] [Server thread/WARN] [voicechat]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[18:37:04] [Thread-14/INFO] [Minecraft]: [ClearLag] No updates found!
+[18:37:04] [VoiceChatServerThread/INFO] [voicechat]: [voicechat] Voice chat server started at port 24454
+[18:37:34] [Server thread/INFO] [Console]: Unknown command. Type "/help" for help.
+[18:37:37] [Server thread/INFO] [Console]: Unknown command. Type "/help" for help.
+[18:39:08] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Eisler_000 joined the game
+[18:39:08] [Server thread/INFO] [Jade]: Syncing config to Eisler_000 (35d4015f-82f4-332b-9a1e-10102dd6fbc2)
+[18:39:08] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: Eisler_000[/100.70.13.20:56187] logged in with entity id 856 at ([world]13.028829473545251, 71.0, 26.024848907426655)
+[18:39:10] [Server thread/INFO] [voicechat]: [voicechat] Received secret request of Eisler_000 (18)
+[18:39:10] [Server thread/INFO] [voicechat]: [voicechat] Sent secret to Eisler_000
+[18:39:55] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Made Eisler_000 a server operator
+[18:39:58] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Eisler_000 lost connection: Timed out
+[18:39:58] [Server thread/INFO] [voicechat]: [voicechat] Disconnecting client Eisler_000
+[18:39:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Eisler_000 left the game.
+[18:40:34] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl]: com.mojang.authlib.GameProfile@4da2d6e9[id=35d4015f-82f4-332b-9a1e-10102dd6fbc2,name=Eisler_000,properties={},legacy=false] (/100.70.13.20:56204) lost connection: Disconnected
+[18:41:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Eisler_000 joined the game
+[18:41:02] [Server thread/INFO] [Jade]: Syncing config to Eisler_000 (35d4015f-82f4-332b-9a1e-10102dd6fbc2)
+[18:41:02] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: Eisler_000[/100.70.13.20:56213] logged in with entity id 1049 at ([world]13.028829473545251, 71.0, 26.024848907426655)
+[18:41:03] [Server thread/INFO] [voicechat]: [voicechat] Received secret request of Eisler_000 (18)
+[18:41:03] [Server thread/INFO] [voicechat]: [voicechat] Sent secret to Eisler_000
+[18:41:52] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Eisler_000 lost connection: Timed out
+[18:41:52] [Server thread/INFO] [voicechat]: [voicechat] Disconnecting client Eisler_000
+[18:41:52] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Eisler_000 left the game.
+[18:42:50] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Eisler_000 joined the game
+[18:42:50] [Server thread/INFO] [Jade]: Syncing config to Eisler_000 (35d4015f-82f4-332b-9a1e-10102dd6fbc2)
+[18:42:50] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: Eisler_000[/100.70.13.20:56229] logged in with entity id 1274 at ([world]13.028829473545251, 71.0, 26.024848907426655)
+[18:42:50] [Server thread/INFO] [voicechat]: [voicechat] Received secret request of Eisler_000 (18)
+[18:42:50] [Server thread/INFO] [voicechat]: [voicechat] Sent secret to Eisler_000
+[18:43:40] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Eisler_000 lost connection: Timed out
+[18:43:40] [Server thread/INFO] [voicechat]: [voicechat] Disconnecting client Eisler_000
+[18:43:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Eisler_000 left the game.
