@@ -49,15 +49,29 @@
   },
   "regions_unexplored:regions_explored": {
     "criteria": {
+      "rocky_reef": "2024-07-18 18:09:45 +0000",
       "tropical_river": "2024-07-17 19:04:48 +0000",
-      "saguaro_desert": "2024-07-17 17:16:08 +0000"
+      "eucalyptus_forest": "2024-07-18 18:14:05 +0000",
+      "outback": "2024-07-18 18:12:15 +0000",
+      "joshua_desert": "2024-07-18 18:12:33 +0000",
+      "chalk_cliffs": "2024-07-18 18:09:49 +0000",
+      "saguaro_desert": "2024-07-17 17:16:08 +0000",
+      "baobab_savanna": "2024-07-18 18:09:26 +0000",
+      "rainforest": "2024-07-18 18:12:55 +0000"
     },
     "done": false
   },
   "regions_unexplored:pioneer": {
     "criteria": {
+      "rocky_reef": "2024-07-18 18:09:45 +0000",
       "tropical_river": "2024-07-17 19:04:48 +0000",
-      "saguaro_desert": "2024-07-17 17:16:08 +0000"
+      "eucalyptus_forest": "2024-07-18 18:14:05 +0000",
+      "outback": "2024-07-18 18:12:15 +0000",
+      "joshua_desert": "2024-07-18 18:12:33 +0000",
+      "chalk_cliffs": "2024-07-18 18:09:49 +0000",
+      "saguaro_desert": "2024-07-17 17:16:08 +0000",
+      "baobab_savanna": "2024-07-18 18:09:26 +0000",
+      "rainforest": "2024-07-18 18:12:55 +0000"
     },
     "done": false
   },
@@ -765,7 +779,12 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:beach": "2024-07-17 19:04:55 +0000"
+      "minecraft:wooded_badlands": "2024-07-18 18:14:35 +0000",
+      "minecraft:badlands": "2024-07-18 18:09:32 +0000",
+      "minecraft:beach": "2024-07-17 19:04:55 +0000",
+      "minecraft:river": "2024-07-18 18:09:31 +0000",
+      "minecraft:desert": "2024-07-18 18:09:36 +0000",
+      "minecraft:warm_ocean": "2024-07-18 18:09:41 +0000"
     },
     "done": false
   },
@@ -790,6 +809,42 @@
   "tombstone:adventure/cancel_ghostly_shape": {
     "criteria": {
       "coded_trigger": "2024-07-18 18:05:16 +0000"
+    },
+    "done": true
+  },
+  "tombstone:recipes/from_grave_dust": {
+    "criteria": {
+      "has_ingredient": "2024-07-18 18:07:10 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/root": {
+    "criteria": {
+      "useitem": "2024-07-18 18:07:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2024-07-18 18:07:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2024-07-18 18:08:39 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_ceryneian_hind": {
+    "criteria": {
+      "location0": "2024-07-18 18:09:19 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:adventure/way_sign": {
+    "criteria": {
+      "bastion": "2024-07-18 18:13:27 +0000"
     },
     "done": true
   },

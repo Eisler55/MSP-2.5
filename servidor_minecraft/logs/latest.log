@@ -223,3 +223,22 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [18:07:51] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Eisler_000 issued server command: /gamemode creative
 [18:07:51] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Eisler_000: Set own game mode to Creative Mode]
 [18:08:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Eisler_000 has made the advancement [Sweet Dreams]
+[18:11:37] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Eisler_000 lost connection: Timed out
+[18:11:37] [Server thread/INFO] [voicechat]: [voicechat] Disconnecting client Eisler_000
+[18:11:37] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Eisler_000 left the game.
+[18:11:37] [Server thread/WARN] [net.minecraft.network.Connection]: handleDisconnection() called twice
+[18:12:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Eisler_000 joined the game
+[18:12:01] [Server thread/INFO] [Jade]: Syncing config to Eisler_000 (35d4015f-82f4-332b-9a1e-10102dd6fbc2)
+[18:12:01] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: Eisler_000[/100.70.13.20:58111] logged in with entity id 4456 at ([world]32.15265298067558, 97.33734949070265, -243.78790271024914)
+[18:12:01] [Server thread/INFO] [voicechat]: [voicechat] Received secret request of Eisler_000 (18)
+[18:12:01] [Server thread/INFO] [voicechat]: [voicechat] Sent secret to Eisler_000
+[18:12:10] [VoiceChatPacketProcessingThread/INFO] [voicechat]: [voicechat] Successfully authenticated player 35d4015f-82f4-332b-9a1e-10102dd6fbc2
+[18:12:11] [VoiceChatPacketProcessingThread/INFO] [voicechat]: [voicechat] Successfully validated connection of player 35d4015f-82f4-332b-9a1e-10102dd6fbc2
+[18:12:11] [VoiceChatPacketProcessingThread/INFO] [voicechat]: [voicechat] Player Eisler_000 (35d4015f-82f4-332b-9a1e-10102dd6fbc2) successfully connected to voice chat
+[18:13:16] [pool-8-thread-1/INFO] [Supplementaries]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / minecraft:village_plains], ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy], ResourceKey[minecraft:worldgen/structure / minecraft:village_savanna], ResourceKey[minecraft:worldgen/structure / minecraft:village_desert]] from pos BlockPos{x=965, y=106, z=-267}
+[18:13:19] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Eisler_000 moved too quickly! 3.3728834448907037,11.343011584715143,-24.074001001891475
+[18:13:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Eisler_000 has made the advancement [advancements.adventure.way_sign.title]
+[18:14:25] [Worker-Main-3/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id 
+[18:15:08] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Eisler_000 lost connection: Disconnected
+[18:15:08] [Server thread/INFO] [voicechat]: [voicechat] Disconnecting client Eisler_000
+[18:15:08] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Eisler_000 left the game
